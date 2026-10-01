@@ -25,7 +25,7 @@ Click YouTube's picture-in-picture button and your video floats in a device of y
 
 Pro is a one-time purchase that unlocks all themes, including future ones. Pro themes can be tried for 3 minutes at a time.
 
-## How to Get it
+## Where to Get 
 
 Coming soon to the Chrome Web Store.
 
