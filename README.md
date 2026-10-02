@@ -3,7 +3,7 @@
 <h1 align="center">Luminostalgic</h1>
 <p align="center">YouTube picture-in-picture, inside real retro devices.</p>
 
-<p align="center"><img src="images/lineup.jpg" alt="Luminostalgic themes: turntable, cassette player, MP3 player, retro TV, modern TV"></p>
+<p align="center"><img src="images/lineup.png" alt="Luminostalgic themes: turntable, cassette player, MP3 player, retro TV, modern TV"></p>
 
 ## What it does
 
