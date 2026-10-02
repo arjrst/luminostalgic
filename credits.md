@@ -10,6 +10,7 @@ Metal009, Metal027, Metal061B, Paper002, Plastic006, Plastic013A, Plastic015A, P
 
 - Studio Kontrast 04 (HDRI)
 - Lacquered Cherry Wood
+- Autumn Forest 04 (HDRI)
 
 CC0 assets need no attribution; they're listed here with thanks.
 
