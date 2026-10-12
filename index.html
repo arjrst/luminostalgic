@@ -60,6 +60,49 @@ h2{font:400 clamp(24px,5vw,40px)/1.15 Chango,Fraunces,serif;color:var(--oxblood)
 footer{margin-top:64px;background:var(--oxblood-d);color:#e6c8b0;padding:34px 0;font-size:15px;text-align:center}
 footer a{color:var(--cream)}
 footer small{display:block;margin-top:14px;opacity:.75}
+
+/* ---- CD shimmer theme ---- */
+:root{
+  --holo:linear-gradient(100deg,#ffd0ea,#d3c4ff,#bdf1ff,#d6ffe6,#fff0b3,#ffcdb0,#ffd0ea);
+  --bg:#2a0a10; --card:#3a111b; --txt:#f1dfcc; --soft:#d9bfae; --muted:#b99485;
+}
+body{background:radial-gradient(1200px 600px at 50% -100px,#4a1420 0%,#2a0a10 60%) fixed,#2a0a10;color:var(--txt)}
+a{color:#ffd0ea}
+header.hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 0%,#7a2234 0%,#431019 55%,#2a0a10 100%);padding-bottom:84px}
+header.hero::before{content:"";position:absolute;left:50%;top:50%;width:640px;height:640px;margin:-320px 0 0 -320px;border-radius:50%;
+  background:conic-gradient(from 0deg,#ff9ad5,#b9a3ff,#7fe3ff,#b8ffd9,#fff2a8,#ffb38a,#ff9ad5,#b9a3ff,#7fe3ff,#b8ffd9,#fff2a8,#ffb38a,#ff9ad5);
+  -webkit-mask:radial-gradient(circle,transparent 0 8%,#000 8.4% 100%);mask:radial-gradient(circle,transparent 0 8%,#000 8.4% 100%);
+  opacity:.2;animation:spin 40s linear infinite;pointer-events:none}
+header.hero::after{content:"";position:absolute;left:50%;top:50%;width:640px;height:640px;margin:-320px 0 0 -320px;border-radius:50%;
+  background:repeating-radial-gradient(circle,rgba(255,255,255,.07) 0 1px,transparent 1px 7px);
+  -webkit-mask:radial-gradient(circle,transparent 0 8%,#000 8.4% 100%);mask:radial-gradient(circle,transparent 0 8%,#000 8.4% 100%);pointer-events:none}
+.hero .wrap{position:relative;z-index:1}
+.hero img.icon{box-shadow:0 0 0 2px rgba(255,255,255,.25),0 10px 30px rgba(0,0,0,.5)}
+.hero p.tag{color:#ecd3c2}
+h1,h2{background:var(--holo);background-size:300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;animation:shimmer 9s linear infinite}
+.btn.primary{background:var(--holo);background-size:300% 100%;color:#2a0a10;border-color:transparent;animation:shimmer 9s linear infinite}
+.btn.ghost{border-color:rgba(255,255,255,.5);color:#f6e8d0}
+.lineup{position:relative;z-index:2;box-shadow:0 0 0 1px rgba(255,255,255,.18),0 18px 60px rgba(0,0,0,.55),0 0 80px rgba(190,160,255,.18)}
+.lead{color:var(--soft)}
+.card,.theme,.plan,.faq details{
+  background-image:linear-gradient(var(--card),var(--card)),linear-gradient(135deg,#ffd0ea,#c7b6ff,#a9ecff,#c9ffe0,#fff0b3,#ffc4a8);
+  background-origin:border-box;background-clip:padding-box,border-box;border:1px solid transparent}
+.card h3,.plan h3{color:#ffe3f1}
+.card p,.plan ul,.faq p{color:var(--soft)}
+.theme img{background:#2a0a10}
+.plan.best{box-shadow:0 0 40px rgba(200,170,255,.22)}
+.price{color:#fff4e6}
+.price small{color:var(--muted)}
+.buy{background:#5a1620;color:#fff;border:1.5px solid transparent;
+  background-image:linear-gradient(#5a1620,#5a1620),var(--holo);background-origin:border-box;background-clip:padding-box,border-box;background-size:auto,300% 100%;animation:shimmer 9s linear infinite}
+.faq summary{color:#ffe3f1}
+.faq .note{color:var(--muted)}
+footer{background:#1d060b;color:#d9bfae}
+footer a{color:#ffd9ec}
+@keyframes shimmer{to{background-position:300% 0}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+@media (max-width:640px){header.hero::before,header.hero::after{width:520px;height:520px;margin:-260px 0 0 -260px}}
 </style>
 </head>
 <body>
