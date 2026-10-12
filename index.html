@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luminostalgic: retro devices for YouTube picture-in-picture</title>
+<meta name="description" content="A Chrome extension that shows YouTube picture-in-picture inside a turntable, cassette player, MP3 player, retro TV or modern TV. Two themes free, Pro is a one-time $4.99.">
+<link rel="icon" href="images/icon.png">
+<style>
+@font-face{font-family:Chango;src:url(fonts/chango-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:Fraunces;src:url(fonts/fraunces-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:Fraunces;src:url(fonts/fraunces-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
+:root{
+  --oxblood:#5a1620; --oxblood-d:#3f0f17; --cream:#f6e8d0; --paper:#fbf4e6;
+  --ink:#2a1216; --muted:#7a5a5e; --gold:#d6782a; --line:#e6d6bb;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 Fraunces,Georgia,serif}
+a{color:var(--oxblood)}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header.hero{background:linear-gradient(180deg,#702030 0%,var(--oxblood-d) 100%);color:var(--cream);text-align:center;padding:56px 0 64px}
+.hero img.icon{width:84px;height:84px;border-radius:20px;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.hero h1{font:400 clamp(26px,8vw,72px)/1.05 Chango,Fraunces,serif;margin:18px 0 8px;letter-spacing:.5px}
+.hero p.tag{font-size:clamp(18px,3vw,24px);margin:0 auto 26px;max-width:560px;color:#e6c8b0}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 24px;border-radius:999px;font:600 16px Fraunces,serif;text-decoration:none;border:2px solid var(--cream)}
+.btn.primary{background:var(--cream);color:var(--oxblood-d)}
+.btn.ghost{color:var(--cream)}
+.btn.soon{opacity:.85;cursor:default}
+.lineup{margin:-34px auto 0;display:block;width:min(100%,980px);border-radius:18px;box-shadow:0 18px 50px rgba(40,8,14,.35)}
+section{padding:56px 0 0}
+h2{font:400 clamp(24px,5vw,40px)/1.15 Chango,Fraunces,serif;color:var(--oxblood);margin:0 0 10px}
+.lead{color:var(--muted);margin:0 0 26px;max-width:640px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px}
+.card h3{margin:0 0 6px;font-size:19px;color:var(--oxblood)}
+.card p{margin:0;color:#4a3236;font-size:16px}
+.themes{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.theme{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.theme img{width:100%;display:block;aspect-ratio:3/2;object-fit:contain;background:#efe2c8}
+.theme div{padding:14px 18px 18px;display:flex;justify-content:space-between;align-items:center}
+.theme b{font-size:19px}
+.badge{font:600 12px Fraunces,serif;letter-spacing:.8px;text-transform:uppercase;padding:4px 10px;border-radius:999px}
+.free{background:#e3efd8;color:#2f5a1c}
+.pro{background:#f6dcc3;color:#8a3d0c}
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;max-width:700px}
+.plan{background:#fff;border:2px solid var(--line);border-radius:18px;padding:24px}
+.plan.best{border-color:var(--oxblood)}
+.plan h3{margin:0;font-size:20px;color:var(--oxblood)}
+.price{font:400 40px Chango,serif;color:var(--ink);margin:6px 0 2px}
+.price small{font:400 15px Fraunces,serif;color:var(--muted)}
+.plan ul{margin:14px 0 0;padding-left:20px;color:#4a3236;font-size:16px}
+.buy{margin-top:18px;display:inline-block;background:var(--oxblood);color:var(--cream);text-decoration:none;padding:12px 22px;border-radius:999px;font-weight:600}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600;color:var(--oxblood)}
+.faq p{margin:10px 0 0;color:#4a3236;font-size:16px}
+footer{margin-top:64px;background:var(--oxblood-d);color:#e6c8b0;padding:34px 0;font-size:15px;text-align:center}
+footer a{color:var(--cream)}
+footer small{display:block;margin-top:14px;opacity:.75}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <img class="icon" src="images/icon.png" alt="Luminostalgic icon">
+    <h1>Luminostalgic</h1>
+    <p class="tag">YouTube picture-in-picture, inside real retro devices.</p>
+    <div class="btns">
+      <span class="btn primary soon">Chrome Web Store: coming soon</span>
+      <a class="btn ghost" href="#pricing">See pricing</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <img class="lineup" src="images/lineup.jpg" alt="Luminostalgic themes: turntable, cassette player, MP3 player, retro TV, modern TV">
+</div>
+
+<main class="wrap">
+
+  <section>
+    <h2>How it works</h2>
+    <p class="lead">Click YouTube's picture-in-picture button as usual. Your video floats in the device you picked and stays on top while you work.</p>
+    <div class="steps">
+      <div class="card"><h3>Pick a device</h3><p>Choose a theme from the extension popup.</p></div>
+      <div class="card"><h3>Open picture-in-picture</h3><p>Song title and artist appear on the record label, the cassette or the player's screen.</p></div>
+      <div class="card"><h3>Use the device</h3><p>In interactive mode, press the buttons, turn the dials and drag the tonearm.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Five devices</h2>
+    <p class="lead">Records spin, tapes wind, and the TVs show the video live.</p>
+    <div class="themes">
+      <div class="theme"><img src="images/cassette.jpg" alt="Cassette player" loading="lazy"><div><b>Cassette player</b><span class="badge free">Free</span></div></div>
+      <div class="theme"><img src="images/modern.jpg" alt="Modern TV" loading="lazy"><div><b>Modern TV</b><span class="badge free">Free</span></div></div>
+      <div class="theme"><img src="images/turntable.jpg" alt="Turntable" loading="lazy"><div><b>Turntable</b><span class="badge pro">Pro</span></div></div>
+      <div class="theme"><img src="images/tv.jpg" alt="Retro TV" loading="lazy"><div><b>Retro TV</b><span class="badge pro">Pro</span></div></div>
+      <div class="theme"><img src="images/classic.jpg" alt="MP3 player" loading="lazy"><div><b>MP3 player</b><span class="badge pro">Pro</span></div></div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <p class="lead">Free to install. Pro is a one-time payment, with no subscription. Each Pro theme can be tried free for 3 minutes first.</p>
+    <div class="plans">
+      <div class="plan">
+        <h3>Free</h3>
+        <div class="price">$0</div>
+        <ul><li>Cassette player</li><li>Modern TV</li><li>Interactive mode</li></ul>
+      </div>
+      <div class="plan best">
+        <h3>Pro</h3>
+        <div class="price">$4.99 <small>one-time</small></div>
+        <ul><li>Turntable, Retro TV, MP3 player</li><li>All future themes</li><li>License key by email, up to 3 activations</li></ul>
+        <!-- Replace # with your Lemon Squeezy checkout link once the store is live -->
+        <a class="buy" href="#pricing">Buy Pro, coming soon</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <h2>Questions</h2>
+    <details><summary>Which browsers work?</summary><p>Chrome 116 or newer on desktop.</p></details>
+    <details><summary>How do I unlock Pro?</summary><p>After purchase, Lemon Squeezy emails you a license key. Paste it into the extension popup.</p></details>
+    <details><summary>What data does it collect?</summary><p>None. No tracking, no analytics, no ads. The only thing sent out is your license key, to check it with Lemon Squeezy. Read the <a href="PRIVACY.md">privacy policy</a>.</p></details>
+    <details><summary>Is it affiliated with YouTube?</summary><p>No. YouTube is a trademark of Google LLC. Luminostalgic is not affiliated with or endorsed by YouTube or Google.</p></details>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    Made by Echo5 Studio &middot;
+    <a href="mailto:echo5vgame@gmail.com">echo5vgame@gmail.com</a> &middot;
+    <a href="PRIVACY.md">Privacy</a> &middot;
+    <a href="credits.md">Credits</a>
+    <small>&copy; 2026 Arzu Rustamova (Echo5 Studio). All rights reserved. The extension is free to install; Pro themes are a one-time purchase. The source code is not public.</small>
+  </div>
+</footer>
+
+</body>
+</html>
