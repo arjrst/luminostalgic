@@ -11,7 +11,7 @@ Click YouTube's picture-in-picture button and your video floats in a device of y
 
 - Song title and artist appear on the record label, the cassette, or the player's screen.
 - Records spin, tapes wind, and the TVs show the video live.
-- In interactive mode you can use the device itself: drag the tonearm, press the keys, turn the dials.
+- In interactive mode you can use the device itself: drag the tonearm, press the keys and buttons, turn the dials.
 
 ## Themes
 
@@ -23,9 +23,9 @@ Click YouTube's picture-in-picture button and your video floats in a device of y
 | Retro TV | Pro |
 | MP3 player | Pro |
 
-Pro is a one-time purchase that unlocks all themes, including future ones. Pro themes can be tried for 3 minutes at a time.
+Pro is a one-time purchase that unlocks all themes, including future ones. Each Pro theme can be tried free for 3 minutes.
 
-## Where to Get 
+## Get it
 
 Coming soon to the Chrome Web Store.
 
