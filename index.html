@@ -99,6 +99,12 @@ h1,h2{background:var(--holo);background-size:300% 100%;-webkit-background-clip:t
 .faq .note{color:var(--muted)}
 footer{background:#1d060b;color:#d9bfae}
 footer a{color:#ffd9ec}
+
+/* keep the tails of g/y/p from being clipped by the gradient text */
+h1,h2{padding-bottom:.2em}
+.hero h1{margin-bottom:0}
+h2{margin-bottom:2px}
+.lineup{border-radius:18px;margin-top:-22px}
 @keyframes shimmer{to{background-position:300% 0}}
 @keyframes spin{to{transform:rotate(360deg)}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
@@ -120,7 +126,7 @@ footer a{color:#ffd9ec}
 </header>
 
 <div class="wrap">
-  <img class="lineup" src="images/lineup.jpg" alt="Luminostalgic themes: turntable, cassette player, MP3 player, retro TV, modern TV">
+  <img class="lineup" src="images/lineup-dark.jpg" alt="Luminostalgic themes: turntable, cassette player, MP3 player, retro TV, modern TV">
 </div>
 
 <main class="wrap">
