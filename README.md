@@ -23,7 +23,7 @@ Click YouTube's picture-in-picture button and your video floats in a device of y
 | Retro TV | Pro |
 | MP3 player | Pro |
 
-Pro is a one-time purchase that unlocks all themes, including future ones. Each Pro theme can be tried free for 3 minutes.
+Pro is a one-time purchase that unlocks the Pro themes, with no subscription. Each Pro theme can be tried free for 3 minutes. One key works on up to 3 devices.
 
 ## Get it
 
@@ -33,13 +33,15 @@ Coming soon to the Chrome Web Store.
 
 Questions or problems: echo5vgame@gmail.com
 
+If YouTube was already open when you installed, refresh the page once so Luminostalgic can start.
+
 ## Privacy
 
 Luminostalgic has no tracking or analytics. See the [privacy policy](PRIVACY.md).
 
 ## License
 
-© 2026 Arzu Rustamova (Echo5 Studio). All rights reserved.
+© 2026 Arzu Rustamova (Luminech Studio). All rights reserved.
 The extension is free to install; Pro themes are a one-time purchase. The source code is not public. Third-party textures and fonts keep their own licences, listed in [credits.md](credits.md).
 
 <sub>YouTube is a trademark of Google LLC. Luminostalgic is not affiliated with or endorsed by YouTube or Google.</sub>
