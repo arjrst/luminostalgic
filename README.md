@@ -27,7 +27,9 @@ Pro is a one-time purchase that unlocks the Pro themes, with no subscription. Ea
 
 ## Get it
 
-Coming soon to the Chrome Web Store.
+[Add Luminostalgic to Chrome](https://chromewebstore.google.com/detail/luminostalgic-retro-pictu/aiagjhkcdpmobmncdclbeobihbjdiebh) from the Chrome Web Store.
+
+Pro is bought once in the [Lemon Squeezy checkout](https://luminechstudio.lemonsqueezy.com/checkout/buy/920ce4bb-caba-419a-8eb1-51a0517cbcbd); the license key arrives by email.
 
 ## Support
 
