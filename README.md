@@ -43,7 +43,7 @@ Luminostalgic has no tracking or analytics. See the [privacy policy](PRIVACY.md)
 
 ## License
 
-© 2026 Arzu Rustamova (Luminech Studio). All rights reserved.
+© 2026 Arzu Rustamova (Echo5VGames). All rights reserved.
 The extension is free to install; Pro themes are a one-time purchase. The source code is not public. Third-party textures and fonts keep their own licences, listed in [credits.md](credits.md).
 
 <sub>YouTube is a trademark of Google LLC. Luminostalgic is not affiliated with or endorsed by YouTube or Google.</sub>

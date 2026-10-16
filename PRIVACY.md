@@ -2,7 +2,7 @@
 
 Last updated: 14 October 2026
 
-Luminostalgic is a browser extension made by Luminech Studio (Arzu Rustamova). It shows YouTube's picture-in-picture video inside retro device themes. This policy explains what the extension does and does not do with your information.
+Luminostalgic is a browser extension made by Echo5VGames (Arzu Rustamova). It shows YouTube's picture-in-picture video inside retro device themes. This policy explains what the extension does and does not do with your information.
 
 ## What stays on your computer
 
