@@ -29,7 +29,7 @@ Pro is a one-time purchase that unlocks the Pro themes, with no subscription. Ea
 
 [Add Luminostalgic to Chrome](https://chromewebstore.google.com/detail/luminostalgic-retro-pictu/aiagjhkcdpmobmncdclbeobihbjdiebh) from the Chrome Web Store.
 
-Pro is bought once in the [Lemon Squeezy checkout](https://luminechstudio.lemonsqueezy.com/checkout/buy/920ce4bb-caba-419a-8eb1-51a0517cbcbd); the license key arrives by email.
+Pro is bought once in the [Lemon Squeezy checkout](https://echo5vgames.lemonsqueezy.com/checkout/buy/920ce4bb-caba-419a-8eb1-51a0517cbcbd); the license key arrives by email.
 
 ## Support
 
@@ -43,7 +43,7 @@ Luminostalgic has no tracking or analytics. See the [privacy policy](PRIVACY.md)
 
 ## License
 
-© 2026 Arzu Rustamova (Echo5VGames). All rights reserved.
+© 2026 Arzu Rustamova (Luminech Studio). All rights reserved.
 The extension is free to install; Pro themes are a one-time purchase. The source code is not public. Third-party textures and fonts keep their own licences, listed in [credits.md](credits.md).
 
 <sub>YouTube is a trademark of Google LLC. Luminostalgic is not affiliated with or endorsed by YouTube or Google.</sub>
