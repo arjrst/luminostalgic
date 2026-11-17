@@ -11,7 +11,7 @@ Luminostalgic is a browser extension made by Echo5VGames (Arzu Rustamova). It sh
 
 ## Payments
 
-Luminostalgic is free. It takes no payments and uses no license keys or payment services. Earlier versions (before 0.42) could check a license key with Lemon Squeezy. That feature has been removed, and the extension no longer contacts any server. Any leftover license data from an earlier version is deleted from your browser's extension storage.
+Luminostalgic is free. It takes no payments and uses no license keys or payment services, and the extension does not contact any server.
 
 ## What we do not do
 
