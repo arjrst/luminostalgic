@@ -15,21 +15,17 @@ Click YouTube's picture-in-picture button and your video floats in a device of y
 
 ## Themes
 
-| Theme | |
-|---|---|
-| Cassette player | Free |
-| Camcorder | Free |
-| Turntable | Pro |
-| Retro TV | Pro |
-| MP3 player | Pro |
+- Cassette player
+- Camcorder
+- Turntable
+- Retro TV
+- MP3 player
 
-Pro is a one-time purchase that unlocks the Pro themes, with no subscription. Each Pro theme can be tried free for 3 minutes. One key works on up to 3 devices.
+Every theme is free. There is no subscription, payment or account.
 
 ## Get it
 
 [Add Luminostalgic to Chrome](https://chromewebstore.google.com/detail/luminostalgic-retro-pictu/aiagjhkcdpmobmncdclbeobihbjdiebh) from the Chrome Web Store.
-
-Pro is bought once in the [Lemon Squeezy checkout](https://echo5vgames.lemonsqueezy.com/checkout/buy/920ce4bb-caba-419a-8eb1-51a0517cbcbd); the license key arrives by email.
 
 ## Support
 
@@ -44,6 +40,6 @@ Luminostalgic has no tracking or analytics. See the [privacy policy](PRIVACY.md)
 ## License
 
 © 2026 Arzu Rustamova (Echo5VGames). All rights reserved.
-The extension is free to install; Pro themes are a one-time purchase. The source code is not public. Third-party textures and fonts keep their own licences, listed in [credits.md](credits.md).
+The extension is free. The source code is not public. Third-party textures and fonts keep their own licences, listed in [credits.md](credits.md).
 
 <sub>YouTube is a trademark of Google LLC. Luminostalgic is not affiliated with or endorsed by YouTube or Google.</sub>
